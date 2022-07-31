@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 st.set_option('deprecation.showfileUploaderEncoding', False)
 # Load the pickled model
-pickle_in = open("decision_model-12.pkl","rb")
+pickle_in = open("decision_model1.pkl","rb")
 model=pickle.load(pickle_in)
 dataset= pd.read_csv('Social_Network_Ads.csv')
 X = dataset.iloc[:, [1,2,3]].values
