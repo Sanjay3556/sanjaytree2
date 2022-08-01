@@ -52,7 +52,7 @@ def main():
       st.success('Model has predicted {}'.format(result))
     if st.button("About"):
       st.subheader("Developed by Sanjay Singh")
-      st.subheader("Head , Department of Computer Engineering")
+      st.subheader("Student , Department of Computer Engineering")
 
 if __name__=='__main__':
   main()
